@@ -16,7 +16,6 @@ void calculaPm(CLIENT *clnt1)
 {
 	maxMinStruct *result;
 	result = calculaprimeirametade_100(&vetorzinho, clnt1);
-	printf("Retornando maxPM = %f e minPM = %f\n", result->max, result->min);
 	resultado.maxPm = result->max;
 	resultado.minPm = result->min;
 }
