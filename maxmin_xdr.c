@@ -11,7 +11,7 @@ xdr_vetorDeFloats (XDR *xdrs, vetorDeFloats *objp)
 	register int32_t *buf;
 
 	int i;
-	 if (!xdr_vector (xdrs, (char *)objp->x, 100,
+	 if (!xdr_vector (xdrs, (char *)objp->x, 10,
 		sizeof (float), (xdrproc_t) xdr_float))
 		 return FALSE;
 	return TRUE;

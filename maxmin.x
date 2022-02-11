@@ -1,5 +1,5 @@
 struct vetorDeFloats {
-    float x[100];
+    float x[10];
 };
 struct maxMinStruct {
     float max;
@@ -11,3 +11,4 @@ program PROG {
         maxMinStruct calculaSegundaMetade(vetorDeFloats) = 51; 
     } = 100;
 } = 55555555;
+
