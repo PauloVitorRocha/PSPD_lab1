@@ -8,6 +8,7 @@
 #include <math.h>
 #include <pthread.h>
 
+// Declara as variaveis globais para as threads poderem usar
 vetorDeFloats vetorzinho;
 maxMinStructResultado resultado;
 
